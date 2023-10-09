@@ -3,6 +3,7 @@ import { Provider } from 'app/provider'
 import { useFonts } from 'expo-font'
 import { Stack } from 'expo-router'
 import { useColorScheme } from 'react-native'
+import UserProfileProvider from 'app/provider/user-profile-provider'
 
 export default function HomeLayout() {
   const [loaded] = useFonts({
@@ -17,7 +18,9 @@ export default function HomeLayout() {
   return (
     <Provider>
       <ThemeProvider value={scheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack />
+        <UserProfileProvider>
+          <Stack />
+        </UserProfileProvider>
       </ThemeProvider>
     </Provider>
   )

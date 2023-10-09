@@ -4,10 +4,11 @@ import '@tamagui/font-inter/css/700.css'
 import 'raf/polyfill'
 
 import { NextThemeProvider, useRootTheme } from '@tamagui/next-theme'
-import { Provider } from 'app/provider'
 import Head from 'next/head'
 import React from 'react'
 import type { SolitoAppProps } from 'solito'
+import { Provider } from 'app/provider'
+import UserProfileProvider from 'app/provider/user-profile-provider'
 
 if (process.env.NODE_ENV === 'production') {
   require('../public/tamagui.css')
@@ -38,7 +39,7 @@ function ThemeProvider({ children }: { children: React.ReactNode }) {
       }}
     >
       <Provider disableRootThemeClass defaultTheme={theme}>
-        {children}
+        <UserProfileProvider>{children}</UserProfileProvider>
       </Provider>
     </NextThemeProvider>
   )

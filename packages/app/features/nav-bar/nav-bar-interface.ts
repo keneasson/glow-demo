@@ -1,0 +1,3 @@
+type NavBarInterface = {
+  ariaLabel: string
+}

@@ -1,17 +1,14 @@
 import React from 'react'
 import { ScrollView, XStack, YStack } from '@my/ui'
-import { BellowTheFold } from 'app/features/bellow-the-fold'
-import { Hero } from 'app/features/hero-home/hero'
 import { BottomNavBar } from 'app/features/nav-bar/bottom-nav-bar'
 
-export function HomeScreen() {
+export function Thing02() {
   return (
     <>
       <ScrollView>
         <XStack flex={1} backgroundColor="$light">
           <YStack flex={6} flexDirection={'column'}>
-            <Hero />
-            <BellowTheFold />
+            <XStack>Thing 2 is THE Thing</XStack>
             <YStack flexDirection={'column'} alignContent={'flex-end'}></YStack>
           </YStack>
         </XStack>
