@@ -1,14 +1,14 @@
 import React from 'react'
-import { ScrollView, XStack, YStack } from '@my/ui'
+import { ScrollView, XStack, YStack } from '@my/ui/types'
 import { BottomNavBar } from 'app/features/nav-bar/bottom-nav-bar'
 
-export function Face() {
+export function Eyes() {
   return (
     <>
       <ScrollView>
         <XStack flex={1} backgroundColor="$light">
           <YStack flex={6} flexDirection={'column'}>
-            <XStack>Face</XStack>
+            <XStack>Eyes</XStack>
             <YStack flexDirection={'column'} alignContent={'flex-end'}></YStack>
           </YStack>
         </XStack>

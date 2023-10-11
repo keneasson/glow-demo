@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, XStack, YStack } from '@my/ui'
+import { ScrollView, XStack, YStack } from '@my/ui/types'
 import { BottomNavBar } from 'app/features/nav-bar/bottom-nav-bar'
 
 export function Lips() {

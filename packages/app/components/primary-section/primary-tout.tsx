@@ -6,6 +6,7 @@ import { ArrowRight } from '@tamagui/lucide-icons'
 import React from 'react'
 import { PrimaryCard } from 'app/components/primary-section/primary-card'
 import { useMedia } from 'tamagui'
+import { useRouter } from 'solito/router'
 
 type PrimaryToutProps = {
   linkTo: string
@@ -28,6 +29,10 @@ export const PrimaryTout: React.FC<PrimaryToutProps> = ({
 
   console.log('Medea', media.gtMd)
 
+  const router = useRouter()
+
+  const handlePress = () => router.push(linkTo)
+
   return (
     <PageLayoutSection width={'100%'} maxWidth={maxLayoutWidth}>
       <PrimarySectionTitle>{title}</PrimarySectionTitle>
@@ -42,13 +47,11 @@ export const PrimaryTout: React.FC<PrimaryToutProps> = ({
           <Text fontFamily={'$body'} paddingBottom={26}>
             {children}
           </Text>
-          <XStack width={'100%'}>
-            {/*<Anchor href={linkTo} display={'contents'} style={{ textDecoration: 'none' }}>*/}
+          <XStack width={'100%'} onPress={handlePress}>
             <Text fontWeight={'500'} fontFamily={'$body'} lineHeight={20} verticalAlign="middle">
               Buy Now
             </Text>
             <ArrowRight verticalAlign="middle" marginLeft={10} height={20} />
-            {/*</Anchor>*/}
           </XStack>
         </PrimaryCard>
       </XStack>

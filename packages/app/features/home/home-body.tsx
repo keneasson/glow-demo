@@ -1,5 +1,5 @@
 import React from 'react'
-import { YStack } from '@my/ui'
+import { YStack } from 'tamagui'
 
 import faceLg from '../../assets/tout-face-lg.png'
 import faceSm from '../../assets/tout-face-sm.png'
