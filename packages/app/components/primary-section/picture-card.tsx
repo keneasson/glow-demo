@@ -21,11 +21,11 @@ export const PictureCard: React.FC<PictureCardProps> = ({
   const imgAlt = alt || 'Image related to the content'
 
   const media = useMedia()
-  const imgWidth = media.gtMd ? 661 : 272
+  const imgWidth = media.gtMd ? 611 : '100%'
 
   if (!isWeb) {
     return (
-      <Image source={imageSm} width={imgWidth} height={231} alt={imgTitle} aria-label={imgTitle} />
+      <Image source={imageSm} width={'100%'} height={231} alt={imgTitle} aria-label={imgTitle} />
     )
   }
   return (
@@ -33,7 +33,12 @@ export const PictureCard: React.FC<PictureCardProps> = ({
       <picture>
         <source srcSet={imageLg.src} media="(min-resolution: 192dpi)" />
         {/* Default image for devices with a pixel density of 1x */}
-        <img src={imageLg.src} alt={imgAlt} />
+        <img
+          src={imageLg.src}
+          alt={imgAlt}
+          width={imgWidth}
+          style={{ display: 'block', minWidth: 272 }}
+        />
       </picture>
     </div>
   )

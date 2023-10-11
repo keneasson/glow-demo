@@ -23,27 +23,35 @@ export const PrimaryTout: React.FC<PrimaryToutProps> = ({
   imagesLg,
 }) => {
   const media = useMedia()
-  const textWidth = media.gtMd ? 611 : 272
+  const maxLayoutWidth = media.gtMd ? 1246 : 720
+  const justifyToutCont = media.gtMd ? 'space-between' : 'center'
 
-  console.log('Medea', media.lg)
+  console.log('Medea', media.gtMd)
 
   return (
-    <PageLayoutSection>
+    <PageLayoutSection width={'100%'} maxWidth={maxLayoutWidth}>
       <PrimarySectionTitle>{title}</PrimarySectionTitle>
-      <PictureCard imageLg={imagesLg} imageSm={imageSm} />
-      <PrimaryCard height={444} width={textWidth}>
-        <Text fontFamily={'$body'} paddingBottom={26}>
-          {children}
-        </Text>
-        <XStack width={'100%'}>
-          {/*<Anchor href={linkTo} display={'contents'} style={{ textDecoration: 'none' }}>*/}
-          <Text fontWeight={'500'} fontFamily={'$body'} lineHeight={20} verticalAlign="middle">
-            Buy Now
+      <XStack
+        width={'100%'}
+        flexWrap={media.gtMd ? 'nowrap' : 'wrap'}
+        justifyContent={justifyToutCont}
+        gap={media.gtMd ? 24 : 0}
+      >
+        <PictureCard imageLg={imagesLg} imageSm={imageSm} />
+        <PrimaryCard>
+          <Text fontFamily={'$body'} paddingBottom={26}>
+            {children}
           </Text>
-          <ArrowRight verticalAlign="middle" marginLeft={10} height={20} />
-          {/*</Anchor>*/}
-        </XStack>
-      </PrimaryCard>
+          <XStack width={'100%'}>
+            {/*<Anchor href={linkTo} display={'contents'} style={{ textDecoration: 'none' }}>*/}
+            <Text fontWeight={'500'} fontFamily={'$body'} lineHeight={20} verticalAlign="middle">
+              Buy Now
+            </Text>
+            <ArrowRight verticalAlign="middle" marginLeft={10} height={20} />
+            {/*</Anchor>*/}
+          </XStack>
+        </PrimaryCard>
+      </XStack>
     </PageLayoutSection>
   )
 }
