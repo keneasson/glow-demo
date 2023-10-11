@@ -1,18 +1,15 @@
 import React from 'react'
 import { ScrollView, XStack, YStack } from '@my/ui'
-import { HomeBody } from 'app/features/home/home-body'
-import { Hero } from 'app/features/hero-home/hero'
 import { BottomNavBar } from 'app/features/nav-bar/bottom-nav-bar'
 
-export function HomeScreen() {
+export function Lips() {
   return (
     <>
       <ScrollView>
-        <XStack flex={1} backgroundColor="white">
+        <XStack flex={1} backgroundColor="$light">
           <YStack flex={6} flexDirection={'column'}>
-            <Hero />
-            <HomeBody />
-            {/*<YStack flexDirection={'column'} alignContent={'flex-end'}></YStack>*/}
+            <XStack>Lips</XStack>
+            <YStack flexDirection={'column'} alignContent={'flex-end'}></YStack>
           </YStack>
         </XStack>
       </ScrollView>

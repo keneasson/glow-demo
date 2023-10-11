@@ -4,9 +4,6 @@ import { HeroContent } from 'app/features/hero-home/hero-content'
 import { PlainButton } from 'app/components/buttons/plain-button'
 import { useRouter } from 'solito/router'
 
-import bannerContainerImage from '../../assets/glow-main.png'
-import { Paragraph } from '@my/ui'
-
 export const Hero: React.FC = () => {
   const router = useRouter()
   const handleButtonPress = () => {
@@ -15,11 +12,10 @@ export const Hero: React.FC = () => {
 
   return (
     <>
-      <HeroBackgroundImage image={bannerContainerImage}>
-        <Paragraph>Glow for it</Paragraph>
-      </HeroBackgroundImage>
-      <HeroContent text="Enim ad minim veniam, quis nostrum exercitationem" />
-      <PlainButton label="Skin the Difference" onPress={handleButtonPress} />
+      <HeroBackgroundImage text="Glow for it" />
+      <HeroContent text="Enim ad minim veniam, quis nostrum exercitationem">
+        <PlainButton label="Skin the Difference" onPress={handleButtonPress} />
+      </HeroContent>
     </>
   )
 }

@@ -1,18 +1,19 @@
 import { Stack } from 'expo-router'
-import { HomeScreen } from 'app/features/home/screen'
+import { Face } from 'app/features/screens/face'
 import NativeAppHeader from 'app/components/native-app-header'
 
-export default function Screen() {
-  const activeScreen = 'HomeScreen'
+export default function Page() {
+  const activeScreen = 'Face'
+
   return (
     <>
       <Stack.Screen
         options={{
-          title: 'Glow',
+          title: 'Face',
           header: () => <NativeAppHeader activeScreen={activeScreen} />,
         }}
       />
-      <HomeScreen />
+      <Face />
     </>
   )
 }

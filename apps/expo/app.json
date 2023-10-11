@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "[yourprojectsname]",
-    "slug": "[yourprojectsname]",
-    "scheme": "[yourprojectsname]",
+    "name": "Glow-demo",
+    "slug": "glow-demo-01",
+    "scheme": "glow-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,7 +27,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.glow-demo.app"
+      "package": "com.glowdemo01.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
