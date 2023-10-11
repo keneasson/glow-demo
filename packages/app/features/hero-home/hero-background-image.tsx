@@ -1,39 +1,48 @@
 import React from 'react'
-import { XStack } from '@my/ui'
-
+import { Text, XStack } from '@my/ui'
+import { styled, useMedia } from 'tamagui'
 import { ImageBackground } from 'react-native'
-import { StaticImageData } from 'next/image'
+
+import bgImageLg from '../../assets/glow-main-lg.png'
+import bgImageSm from '../../assets/glow-main-sm.png'
 
 type HeroBackgroundImageProps = {
-  image: StaticImageData
-  children?: React.ReactNode
+  text: string
 }
 
-export const HeroBackgroundImage: React.FC<HeroBackgroundImageProps> = ({ children, image }) => {
+const BackgroundText = styled(Text, {
+  color: '#ffffff',
+  fontFamily: '$body',
+  textAlign: 'center',
+  fontWeight: 'bold',
+  fontSize: 48,
+})
+
+export const HeroBackgroundImage: React.FC<HeroBackgroundImageProps> = ({ text }) => {
+  const media = useMedia()
   return (
     <XStack
       flex={1}
       width="100%"
       minHeight={444}
       backgroundColor={'black'}
+      justifyContent={'center'}
       style={{
-        backgroundImage: `url(${image.src})`,
+        backgroundImage: `url(${bgImageLg.src})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'top right',
+        backgroundPosition: 'center',
       }}
     >
       <ImageBackground
-        source={image}
+        source={bgImageSm}
+        resizeMode="cover"
         style={{
           flex: 1,
-          width: '100%',
-          height: 266,
           justifyContent: 'center',
-          alignSelf: 'flex-end',
+          width: '100%',
         }}
-        resizeMode={'center'}
       >
-        {children && children}
+        <BackgroundText>{text}</BackgroundText>
       </ImageBackground>
     </XStack>
   )

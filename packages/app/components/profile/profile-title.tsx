@@ -7,7 +7,7 @@ type ProfileTitleProps = {
 
 export const ProfileTitle: React.FC<ProfileTitleProps> = ({ value }) => {
   return (
-    <Text fontFamily="$body" fontSize={12} fontWeight={'bold'} color={'$color'}>
+    <Text fontFamily="$body" fontWeight={'500'} color={'$color'}>
       {value}
     </Text>
   )

@@ -5085,7 +5085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.27":
+"@types/react@npm:*":
   version: 18.2.26
   resolution: "@types/react@npm:18.2.26"
   dependencies:
@@ -5093,6 +5093,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 5789256cd6238d34c1fa2c23cff90174f050531aff2bf3f7791adb80ec603d56c68492f86c824e96e69c6a9589bffd3569035f16866bf722e1bbc80080f0a2ce
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:~18.0.27":
+  version: 18.0.38
+  resolution: "@types/react@npm:18.0.38"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 34481c79f4f7ea2aefbaa45281319dc183200230d932d968463eba1643bd3635073d0a17c5c613150a69e36ca18b811ecffafea6384fa3dff3b5203866339d69
   languageName: node
   linkType: hard
 
@@ -5746,11 +5757,11 @@ __metadata:
     "@tamagui/lucide-icons": latest
     "@tamagui/shorthands": latest
     "@tamagui/themes": latest
-    "@types/react": ^18.0.27
+    "@types/react": ~18.0.27
     "@types/react-native": ^0.71.3
     burnt: ^0.11.0
-    expo-linking: ^4.0.1
-    react-native-safe-area-context: ^4.5.0
+    expo-linking: ~4.0.1
+    react-native-safe-area-context: 4.5.0
     solito: ^3.0.0
   languageName: unknown
   linkType: soft
@@ -8704,7 +8715,7 @@ __metadata:
     expo-dev-client: ~2.2.1
     expo-font: ~11.1.1
     expo-linear-gradient: ~12.1.2
-    expo-linking: ^4.0.1
+    expo-linking: ~4.0.1
     expo-modules-core: ~1.2.7
     expo-router: ^1.4.3
     expo-splash-screen: ^0.18.1
@@ -8714,8 +8725,8 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-native: ^0.71.13
-    react-native-gesture-handler: ^2.9.0
-    react-native-safe-area-context: ^4.5.0
+    react-native-gesture-handler: ~2.9.0
+    react-native-safe-area-context: 4.5.0
     react-native-screens: ~3.20.0
     react-native-svg: 13.4.0
     react-native-web: ^0.18.12
@@ -8747,7 +8758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-constants@npm:~14.2.1":
+"expo-constants@npm:~14.2.0, expo-constants@npm:~14.2.1":
   version: 14.2.1
   resolution: "expo-constants@npm:14.2.1"
   dependencies:
@@ -8885,16 +8896,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-linking@npm:^4.0.1":
-  version: 4.1.0
-  resolution: "expo-linking@npm:4.1.0"
+"expo-linking@npm:~4.0.1":
+  version: 4.0.1
+  resolution: "expo-linking@npm:4.0.1"
   dependencies:
     "@types/qs": ^6.9.7
-    expo-constants: ~14.3.0
+    expo-constants: ~14.2.0
     invariant: ^2.2.4
     qs: ^6.11.0
     url-parse: ^1.5.9
-  checksum: fe1552c8636dcb3776204849c0023dd9567f335d147f264d3f290f1fe68e1b235debb8b213030e23054f37234623884e4585fa8e628377e92463369480a45bd9
+  checksum: 631656c9cad78c345b35b7decd8c2bc22014b867321fcbb0c740b15001a492080ee3be26d27a89587eb2736223c82a39c600950930cf44b6dd95d37acb7e1527
   languageName: node
   linkType: hard
 
@@ -13860,9 +13871,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gesture-handler@npm:^2.9.0":
-  version: 2.13.1
-  resolution: "react-native-gesture-handler@npm:2.13.1"
+"react-native-gesture-handler@npm:~2.9.0":
+  version: 2.9.0
+  resolution: "react-native-gesture-handler@npm:2.9.0"
   dependencies:
     "@egjs/hammerjs": ^2.0.17
     hoist-non-react-statics: ^3.3.0
@@ -13872,7 +13883,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: c89504c52a2f4940a5cb56862f0676422ff30ad111fb015e37d2b4d3b736e708e6301da9027f003565bd23d8a3f4e8641eb5810f7da9ed848f81b3063df64e98
+  checksum: 6bfdd9d23486193424dcfb0073dd821a216c2783dde746d73a3441e920602343f09efa10261c6f09fcbcb645d029a95305c86f61997053c01ad89751c8c6d236
   languageName: node
   linkType: hard
 
@@ -13883,13 +13894,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-safe-area-context@npm:^4.5.0":
-  version: 4.7.2
-  resolution: "react-native-safe-area-context@npm:4.7.2"
+"react-native-safe-area-context@npm:4.5.0":
+  version: 4.5.0
+  resolution: "react-native-safe-area-context@npm:4.5.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: a74a9c8b3d8642cab6e92ab12991279d3c0984c8ce09e64a4f5c6b08316001e796678bd3d5fa0e2601a334435c34ee914411a7cf7d8aa0460a49a177093b64ee
+  checksum: 958df1d20492aa89c23d746f88409a3a3bd1b0d397c80310a4b0bbec9888cbbeb7579c9c92dad46841e2e6536491806206228ba009b7c8af970670aef8273a30
   languageName: node
   linkType: hard
 

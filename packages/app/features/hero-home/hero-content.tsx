@@ -1,16 +1,35 @@
 import React from 'react'
-import { Paragraph, XStack } from '@my/ui'
+import { Paragraph } from '@my/ui'
+import { styled, YStack } from 'tamagui'
 
 type HeroContentProps = {
   text: string
+  children: React.ReactNode
 }
 
-export const HeroContent: React.FC<HeroContentProps> = ({ text }) => {
+const HeroText = styled(YStack, {
+  justifyContent: 'center',
+  alignContent: 'center',
+  marginTop: 55,
+  marginBottom: 55,
+})
+
+export const HeroContent: React.FC<HeroContentProps> = ({ text, children }) => {
   return (
-    <XStack justifyContent={'center'}>
-      <Paragraph color={'$color'} margin={24} textAlign={'center'} fontSize={24}>
+    <HeroText>
+      <Paragraph
+        flex={1}
+        color={'#161616'}
+        textAlign={'center'}
+        fontSize={16}
+        lineHeight={24}
+        fontWeight="700"
+        minHeight={20}
+        minWidth={180}
+      >
         {text}
       </Paragraph>
-    </XStack>
+      <YStack marginTop={32}>{children}</YStack>
+    </HeroText>
   )
 }

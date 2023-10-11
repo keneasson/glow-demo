@@ -5,7 +5,7 @@ import face from '../../assets/Face.svg'
 export const FaceIcon: React.FC = () => {
   return (
     <View>
-      <Image source={{ uri: face.src, width: 24, height: 24 }} marginRight={16} />
+      <Image source={{ uri: face.src, width: 23, height: 24 }} marginRight={16} />
     </View>
   )
 }

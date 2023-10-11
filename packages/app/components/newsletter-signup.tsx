@@ -1,13 +1,13 @@
 import React from 'react'
-import { defaultStyles, Input, Text, YStack } from '@my/ui'
+import { Input, Text, XStack } from '@my/ui'
 
 export const NewsletterSignup: React.FC = () => {
   return (
-    <YStack flex-wrap={'wrap'}>
-      <Text fontFamily={defaultStyles.fontFamily} width={'90%'} marginBottom={8}>
-        Dont forget to join our newsletter
+    <XStack>
+      <Text fontFamily={'$body'} marginRight={14}>
+        Join our newsletter
       </Text>
-      <Input placeholder={'Your Email'} width={'80%'} height={'$sm'}></Input>
-    </YStack>
+      <Input placeholder={'Email Address'} width={217} height={'$sm'} borderRadius={5}></Input>
+    </XStack>
   )
 }

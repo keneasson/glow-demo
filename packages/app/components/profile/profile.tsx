@@ -14,7 +14,7 @@ export const Profile: React.FC = ({}) => {
     <YStack>
       <XStack>
         <ProfileImage image={imageSource} />
-        <YStack paddingLeft={6} alignSelf={'center'}>
+        <YStack paddingLeft={15} alignSelf={'center'}>
           <ProfileTitle value={name} />
           {title && <ProfileInfo value={title} />}
         </YStack>

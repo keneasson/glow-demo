@@ -44,7 +44,7 @@ function NativeAppHeader({ activeScreen }) {
           <BackButton icon={<ArrowLeft size={23} />} onPress={goBack} />
         )}
         <Text position={'absolute'} left={100} bottom={0}>
-          Save The World
+          Glow
         </Text>
       </Header>
     </SafeAreaView>
