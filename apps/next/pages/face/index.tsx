@@ -1,5 +1,5 @@
-import { HomeScreen } from '../../../../packages/app/features/home/screen'
 import Head from 'next/head'
+import { Face } from 'app/features/screens/face/face'
 
 export default function Page() {
   return (
@@ -7,7 +7,7 @@ export default function Page() {
       <Head>
         <title>Glow - Face</title>
       </Head>
-      <HomeScreen />
+      <Face />
     </>
   )
 }

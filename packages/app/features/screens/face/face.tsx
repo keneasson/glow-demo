@@ -1,6 +1,5 @@
 import React from 'react'
-import { ScrollView, Text, XStack, YStack } from '@my/ui/types'
-import { BottomNavBar } from 'app/features/nav-bar/bottom-nav-bar'
+import { ScrollView, Text, XStack, YStack } from '@my/ui'
 
 export function Face() {
   return (
@@ -15,9 +14,6 @@ export function Face() {
           </YStack>
         </XStack>
       </ScrollView>
-      <XStack position="absolute" bottom={10} justifyContent={'space-evenly'} width={'100%'}>
-        <BottomNavBar ariaLabel={'Main Menu'} />
-      </XStack>
     </>
   )
 }

@@ -1,3 +1,3 @@
 type NavBarInterface = {
-  ariaLabel: string
+  pageId: string
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import { Stack, XStack, YStack } from '@my/ui'
-import { Hero } from 'app/features/hero-home/hero'
 import { TopNavBar } from 'app/features/nav-bar/top-nav-bar'
-import { HomeBody } from 'app/features/home/home-body'
 import { Footer } from 'app/components/footer'
 
-export function HomeScreen() {
+type PageLayoutGeneralProps = {
+  children: React.ReactNode
+}
+
+export const PageLayoutGeneral: React.FC<PageLayoutGeneralProps> = ({ children }) => {
   return (
     <>
       <Stack backgroundColor="white">
@@ -14,8 +16,7 @@ export function HomeScreen() {
         </XStack>
         <XStack backgroundColor="$light">
           <YStack id="LayoutColumn02" flex={6} rowGap={50}>
-            <Hero />
-            <HomeBody />
+            {children}
           </YStack>
         </XStack>
       </Stack>

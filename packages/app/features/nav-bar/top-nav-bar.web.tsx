@@ -8,8 +8,7 @@ import { useMedia } from 'tamagui'
 import logo from '../../assets/Glow.svg'
 import { PageLayoutSection } from 'app/components/page-layout-section'
 
-export const TopNavBar: React.FC<NavBarInterface> = ({ ariaLabel }) => {
-  const handleOnInteraction = (e) => console.log('clicked ', e)
+export const TopNavBar: React.FC<NavBarInterface> = ({ pageId }) => {
   const media = useMedia()
   const horizontalPadding = media.gtMd ? 55 : 24
 
