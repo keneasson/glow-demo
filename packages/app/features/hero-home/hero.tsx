@@ -7,7 +7,7 @@ import { useRouter } from 'solito/router'
 export const Hero: React.FC = () => {
   const router = useRouter()
   const handleButtonPress = () => {
-    router.push('/face')
+    router.push('/glow-difference')
   }
 
   return (

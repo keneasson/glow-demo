@@ -14,7 +14,6 @@ export const PlainButton: React.FC<PlainButtonProps> = ({ label, onPress }) => {
 
   const StyledButton = styled(Button, {
     name: 'PlainButton',
-    padding: 15,
     borderRadius: 10,
     backgroundColor: '#F76190',
     hoverStyle: {
@@ -28,7 +27,7 @@ export const PlainButton: React.FC<PlainButtonProps> = ({ label, onPress }) => {
   return (
     <XStack justifyContent={'center'}>
       <StyledButton onPress={handleButtonPress}>
-        <Text color={'#161616'} fontFamily={'$body'}>
+        <Text color={'#161616'} fontFamily={'$body'} padding={15}>
           {label}
         </Text>
       </StyledButton>

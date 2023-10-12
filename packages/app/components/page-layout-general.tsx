@@ -5,14 +5,15 @@ import { Footer } from 'app/components/footer'
 
 type PageLayoutGeneralProps = {
   children: React.ReactNode
+  pageId: string
 }
 
-export const PageLayoutGeneral: React.FC<PageLayoutGeneralProps> = ({ children }) => {
+export const PageLayoutGeneral: React.FC<PageLayoutGeneralProps> = ({ children, pageId }) => {
   return (
     <>
       <Stack backgroundColor="white">
         <XStack flexGrow={9} justifyContent="flex-start">
-          <TopNavBar ariaLabel={'Main Menu'} />
+          <TopNavBar pageId={pageId} />
         </XStack>
         <XStack backgroundColor="$light">
           <YStack id="LayoutColumn02" flex={6} rowGap={50}>

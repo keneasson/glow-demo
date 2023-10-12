@@ -1,3 +1,3 @@
 type NavBarInterface = {
-  pageId: string
+  pageId?: string
 }

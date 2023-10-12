@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Face: React.FC = () => {
   return (
-    <PageLayoutGeneral>
+    <PageLayoutGeneral pageId="face">
       <Text>Face</Text>
     </PageLayoutGeneral>
   )

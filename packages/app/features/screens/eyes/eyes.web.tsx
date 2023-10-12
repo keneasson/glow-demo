@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Eyes: React.FC = () => {
   return (
-    <PageLayoutGeneral>
+    <PageLayoutGeneral pageId="eyes">
       <Text>Eyes</Text>
     </PageLayoutGeneral>
   )

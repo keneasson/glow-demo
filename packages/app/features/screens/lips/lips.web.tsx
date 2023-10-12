@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Lips: React.FC = () => {
   return (
-    <PageLayoutGeneral>
+    <PageLayoutGeneral pageId="lips">
       <Text>Lips</Text>
     </PageLayoutGeneral>
   )

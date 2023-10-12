@@ -7,7 +7,6 @@ import { useRouter } from 'solito/router'
 
 export const MainNavTabs: React.FC = () => {
   const router = useRouter()
-  const handlePress = () => {}
   return (
     <XGroup height={48}>
       <Button onPress={() => router.push('/face')}>
