@@ -1,9 +1,9 @@
 import { Stack } from 'expo-router'
-import { Face } from 'app/features/screens/face'
+import { Face } from 'app/features/screens/face/face'
 import NativeAppHeader from 'app/components/native-app-header'
 
 export default function Page() {
-  const activeScreen = 'Face'
+  const activeScreen = 'face'
 
   return (
     <>

@@ -2,6 +2,8 @@ import { createContext, useState } from 'react'
 import ProfilePicturePlaceholder from '../assets/profilePlaceholder.svg'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 
+import { Users } from '@tamagui/lucide-icons'
+
 type UserProfileType = {
   imageSource: typeof ProfilePicturePlaceholder
   name: string
@@ -14,7 +16,7 @@ type UserProfileContextType = {
 }
 
 const defaultUser = {
-  imageSource: ProfilePicturePlaceholder,
+  imageSource: Users,
   name: 'Sign In',
   title: null,
 }

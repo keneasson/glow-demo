@@ -1,19 +1,19 @@
 import { Stack } from 'expo-router'
 import NativeAppHeader from 'app/components/native-app-header'
-import { Eyes } from 'app/features/screens/eyes/eyes'
+import { GlowDifference } from 'app/features/screens/glow-difference/glow-difference'
 
 export default function Page() {
-  const activeScreen = 'eyes'
+  const activeScreen = 'glow-difference'
 
   return (
     <>
       <Stack.Screen
         options={{
-          title: 'Eyes',
+          title: 'Glow - difference',
           header: () => <NativeAppHeader activeScreen={activeScreen} />,
         }}
       />
-      <Eyes />
+      <GlowDifference />
     </>
   )
 }
