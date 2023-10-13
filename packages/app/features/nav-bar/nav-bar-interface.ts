@@ -3,6 +3,6 @@ import { ScrollPoints } from 'app/features/home/screen'
 
 export type NavBarInterface = {
   pageId?: string
-  scrollViewRef: ScrollView | null
+  scrollViewRef?: ScrollView | null
   scrollPoints?: ScrollPoints
 }

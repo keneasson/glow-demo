@@ -1,11 +1,8 @@
-import { createContext, useState } from 'react'
-import ProfilePicturePlaceholder from '../assets/profilePlaceholder.svg'
+import React, { createContext, useState } from 'react'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 
-import { Users } from '@tamagui/lucide-icons'
-
 type UserProfileType = {
-  imageSource: typeof ProfilePicturePlaceholder
+  imageSource?: React.Component | undefined
   name: string
   title: string | null
 }
@@ -16,13 +13,12 @@ type UserProfileContextType = {
 }
 
 const defaultUser = {
-  imageSource: Users,
   name: 'Sign In',
   title: null,
 }
 
 export const UserProfileContext = createContext<UserProfileContextType>(
-  null as unknown as UserProfileContextType
+  {} as UserProfileContextType
 )
 
 export default function UserProfileProvider({ children }: { children: React.ReactNode }) {
