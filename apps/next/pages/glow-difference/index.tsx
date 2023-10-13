@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { GlowDifference } from 'app/features/screens/glow-difference'
+import { GlowDifference } from 'app/features/screens/glow-difference/glow-difference'
 
 export default function Page() {
   return (

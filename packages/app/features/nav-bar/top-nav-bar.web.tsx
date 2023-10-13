@@ -1,8 +1,8 @@
 import React from 'react'
-import { Image, View } from '@my/ui'
+import { Image, View, XGroup } from '@my/ui'
 import { Search } from 'app/features/search'
 import { Profile } from 'app/components/profile/profile'
-import { MainNavTabs } from 'app/features/nav-bar/main-nav-tabs'
+import { MainNavItems } from 'app/features/nav-bar/main-nav-items'
 import { useMedia } from 'tamagui'
 
 import logo from '../../assets/Glow.svg'
@@ -15,8 +15,9 @@ export const TopNavBar: React.FC<NavBarInterface> = ({ pageId }) => {
   const media = useMedia()
   const horizontalPadding = media.gtMd ? 55 : 24
 
+  console.log('pageId')
   const isLinkToHome = pageId && pageId !== 'home'
-  console.log('isLinkHome', isLinkToHome ? 'true' : 'false')
+
   return (
     <PageLayoutSection height={94} paddingHorizontal={horizontalPadding}>
       {isLinkToHome ? (
@@ -28,7 +29,9 @@ export const TopNavBar: React.FC<NavBarInterface> = ({ pageId }) => {
       )}
 
       <Search />
-      <MainNavTabs />
+      <XGroup height={48} backgroundColor={'white'}>
+        <MainNavItems pageId={pageId} />
+      </XGroup>
       <Profile />
     </PageLayoutSection>
   )

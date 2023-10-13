@@ -3,7 +3,7 @@ import NativeAppHeader from 'app/components/native-app-header'
 import { Eyes } from 'app/features/screens/eyes/eyes'
 
 export default function Page() {
-  const activeScreen = 'Eyes'
+  const activeScreen = 'eyes'
 
   return (
     <>
