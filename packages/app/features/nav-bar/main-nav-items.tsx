@@ -12,7 +12,7 @@ type MainNavItemsProps = {
   pageId?: string
   setIsOpen?: Dispatch<boolean>
   scrollViewRef?: ScrollView | null
-  scrollPoints: ScrollPoints
+  scrollPoints?: ScrollPoints
 }
 
 export const MainNavItems: React.FC<MainNavItemsProps> = ({
@@ -25,7 +25,7 @@ export const MainNavItems: React.FC<MainNavItemsProps> = ({
   const handlePress = (linkTo: string) => {
     console.log('scrollViewRef', scrollViewRef)
     console.log('HandlePress', { pageId, scrollPoints })
-    if (pageId && scrollViewRef && typeof scrollPoints[linkTo] !== 'undefined') {
+    if (pageId && scrollViewRef && scrollPoints && scrollPoints['offset']) {
       scrollViewRef.scrollTo({
         y: scrollPoints[linkTo] + scrollPoints['offset'],
         x: 0,

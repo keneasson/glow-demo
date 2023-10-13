@@ -1,11 +1,10 @@
 import React from 'react'
-import { ScrollView, Stack, XStack, YStack } from '@my/ui'
+import { Stack, XStack, YStack } from '@my/ui'
 import { Hero } from 'app/features/hero-home/hero'
 import { TopNavBar } from 'app/features/nav-bar/top-nav-bar'
 import { HomeBody } from 'app/features/home/home-body'
 import { Footer } from 'app/components/footer'
 
-export type ScrollViewRef = ScrollView & undefined
 export type ScrollPoints = Record<string, number>
 
 export function HomeScreen() {

@@ -8,6 +8,7 @@ import { useMedia } from 'tamagui'
 import logo from '../../assets/Glow.svg'
 import { PageLayoutSection } from 'app/components/page-layout-section'
 import { useRouter } from 'solito/router'
+import { NavBarInterface } from 'app/features/nav-bar/nav-bar-interface'
 
 export const TopNavBar: React.FC<NavBarInterface> = ({ pageId }) => {
   const router = useRouter()

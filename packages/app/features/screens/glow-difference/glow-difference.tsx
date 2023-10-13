@@ -7,7 +7,7 @@ const pageId = 'glow-diff'
 export function GlowDifference() {
   return (
     <>
-      <PageLayoutGeneral pageId={pageId} title={'Glow the Difference'}>
+      <PageLayoutGeneral pageId={pageId}>
         <Content />
       </PageLayoutGeneral>
     </>
