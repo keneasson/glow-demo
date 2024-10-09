@@ -1,0 +1,1473 @@
+{
+  "layers": [
+    {
+      "name": "color-modes--light",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "light"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "semantic.action.color.foreground.error.strong",
+          "key": "--semantic-action-color-foreground-error-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-error-700}"
+        },
+        {
+          "name": "semantic.action.color.border.strong",
+          "key": "--semantic-action-color-border-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-error-700}"
+        },
+        {
+          "name": "semantic.action.color.border.error.strong",
+          "key": "--semantic-action-color-border-error-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-error-700}"
+        },
+        {
+          "name": "semantic.static.color.foreground.default.strong",
+          "key": "--semantic-static-color-foreground-default-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-black}"
+        },
+        {
+          "name": "semantic.static.color.foreground.default.default",
+          "key": "--semantic-static-color-foreground-default-default",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-700}"
+        },
+        {
+          "name": "semantic.static.color.border.strong",
+          "key": "--semantic-static-color-border-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-error-700}"
+        },
+        {
+          "name": "semantic.static.color.border.default.strong",
+          "key": "--semantic-static-color-border-default-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-300}"
+        },
+        {
+          "name": "semantic.static.color.background.default.default",
+          "key": "--semantic-static-color-background-default-default",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-white}"
+        },
+        {
+          "name": "semantic.static.color.background.default.muted",
+          "key": "--semantic-static-color-background-default-muted",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-100}"
+        }
+      ]
+    },
+    {
+      "name": "color-modes--dark",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "dark"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "semantic.action.color.foreground.error.strong",
+          "key": "--semantic-action-color-foreground-error-strong",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 77, 77, 1.00)"
+        },
+        {
+          "name": "semantic.action.color.border.strong",
+          "key": "--semantic-action-color-border-strong",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 77, 77, 1.00)"
+        },
+        {
+          "name": "semantic.action.color.border.error.strong",
+          "key": "--semantic-action-color-border-error-strong",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 77, 77, 1.00)"
+        },
+        {
+          "name": "semantic.static.color.foreground.default.strong",
+          "key": "--semantic-static-color-foreground-default-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-white}"
+        },
+        {
+          "name": "semantic.static.color.foreground.default.default",
+          "key": "--semantic-static-color-foreground-default-default",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-300}"
+        },
+        {
+          "name": "semantic.static.color.border.strong",
+          "key": "--semantic-static-color-border-strong",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 77, 77, 1.00)"
+        },
+        {
+          "name": "semantic.static.color.border.default.strong",
+          "key": "--semantic-static-color-border-default-strong",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-700}"
+        },
+        {
+          "name": "semantic.static.color.background.default.default",
+          "key": "--semantic-static-color-background-default-default",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-800}"
+        },
+        {
+          "name": "semantic.static.color.background.default.muted",
+          "key": "--semantic-static-color-background-default-muted",
+          "type": "colors",
+          "description": "",
+          "value": "{--brand-color-neutral-900}"
+        }
+      ]
+    },
+    {
+      "name": "brand--brand-1",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": [
+        {
+          "name": "brand.color.neutral.white",
+          "key": "--brand-color-neutral-white",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 255, 255, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.white",
+          "key": "--brand-interactive-neutral-white",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(255, 255, 255, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.100",
+          "key": "--brand-interactive-neutral-100",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(241, 241, 241, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.300",
+          "key": "--brand-interactive-neutral-300",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(214, 214, 214, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.700",
+          "key": "--brand-interactive-neutral-700",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(87, 87, 87, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.800",
+          "key": "--brand-interactive-neutral-800",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(40, 40, 40, 1.00)"
+        },
+        {
+          "name": "brand.interactive.neutral.black",
+          "key": "--brand-interactive-neutral-black",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(0, 0, 0, 1.00)"
+        },
+        {
+          "name": "brand.interactive.primary.500",
+          "key": "--brand-interactive-primary-500",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(26, 34, 242, 1.00)"
+        },
+        {
+          "name": "brand.interactive.error.700",
+          "key": "--brand-interactive-error-700",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(216, 16, 16, 1.00)"
+        },
+        {
+          "name": "brand.color.primary.500",
+          "key": "--brand-color-primary-500",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(26, 34, 242, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.100",
+          "key": "--brand-color-neutral-100",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(241, 241, 241, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.300",
+          "key": "--brand-color-neutral-300",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(214, 214, 214, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.700",
+          "key": "--brand-color-neutral-700",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(87, 87, 87, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.800",
+          "key": "--brand-color-neutral-800",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(55, 55, 55, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.900",
+          "key": "--brand-color-neutral-900",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(40, 40, 40, 1.00)"
+        },
+        {
+          "name": "brand.color.neutral.black",
+          "key": "--brand-color-neutral-black",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(0, 0, 0, 1.00)"
+        },
+        {
+          "name": "brand.spacing.none",
+          "key": "--brand-spacing-none",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "brand.spacing.20",
+          "key": "--brand-spacing-20",
+          "type": "spacing",
+          "description": "",
+          "value": "2px"
+        },
+        {
+          "name": "brand.size.20",
+          "key": "--brand-size-20",
+          "type": "spacing",
+          "description": "",
+          "value": "2px"
+        },
+        {
+          "name": "brand.size.40",
+          "key": "--brand-size-40",
+          "type": "spacing",
+          "description": "",
+          "value": "4px"
+        },
+        {
+          "name": "brand.size.60",
+          "key": "--brand-size-60",
+          "type": "spacing",
+          "description": "",
+          "value": "6px"
+        },
+        {
+          "name": "brand.size.80",
+          "key": "--brand-size-80",
+          "type": "spacing",
+          "description": "",
+          "value": "8px"
+        },
+        {
+          "name": "brand.size.160",
+          "key": "--brand-size-160",
+          "type": "spacing",
+          "description": "",
+          "value": "16px"
+        },
+        {
+          "name": "brand.size.200",
+          "key": "--brand-size-200",
+          "type": "spacing",
+          "description": "",
+          "value": "20px"
+        },
+        {
+          "name": "brand.size.240",
+          "key": "--brand-size-240",
+          "type": "spacing",
+          "description": "",
+          "value": "24px"
+        },
+        {
+          "name": "brand.size.360",
+          "key": "--brand-size-360",
+          "type": "spacing",
+          "description": "",
+          "value": "36px"
+        },
+        {
+          "name": "brand.spacing.40",
+          "key": "--brand-spacing-40",
+          "type": "spacing",
+          "description": "",
+          "value": "4px"
+        },
+        {
+          "name": "brand.spacing.60",
+          "key": "--brand-spacing-60",
+          "type": "spacing",
+          "description": "",
+          "value": "6px"
+        },
+        {
+          "name": "brand.spacing.80",
+          "key": "--brand-spacing-80",
+          "type": "spacing",
+          "description": "",
+          "value": "8px"
+        },
+        {
+          "name": "brand.spacing.160",
+          "key": "--brand-spacing-160",
+          "type": "spacing",
+          "description": "",
+          "value": "16px"
+        },
+        {
+          "name": "brand.spacing.200",
+          "key": "--brand-spacing-200",
+          "type": "spacing",
+          "description": "",
+          "value": "20px"
+        },
+        {
+          "name": "brand.spacing.240",
+          "key": "--brand-spacing-240",
+          "type": "spacing",
+          "description": "",
+          "value": "24px"
+        },
+        {
+          "name": "brand.spacing.360",
+          "key": "--brand-spacing-360",
+          "type": "spacing",
+          "description": "",
+          "value": "36px"
+        },
+        {
+          "name": "brand.fontFamily.sans",
+          "key": "--brand-font-family-sans",
+          "type": "fontFamily",
+          "description": "",
+          "value": "\"DM Sans\""
+        },
+        {
+          "name": "brand.fontSize.xxs",
+          "key": "--brand-font-size-xxs",
+          "type": "fontSize",
+          "description": "",
+          "value": "10"
+        },
+        {
+          "name": "brand.fontSize.xs",
+          "key": "--brand-font-size-xs",
+          "type": "fontSize",
+          "description": "",
+          "value": "12"
+        },
+        {
+          "name": "brand.fontSize.sm",
+          "key": "--brand-font-size-sm",
+          "type": "fontSize",
+          "description": "",
+          "value": "14"
+        },
+        {
+          "name": "brand.fontSize.regular",
+          "key": "--brand-font-size-regular",
+          "type": "fontSize",
+          "description": "",
+          "value": "16"
+        },
+        {
+          "name": "brand.fontSize.lg",
+          "key": "--brand-font-size-lg",
+          "type": "fontSize",
+          "description": "",
+          "value": "20"
+        },
+        {
+          "name": "brand.fontSize.xl",
+          "key": "--brand-font-size-xl",
+          "type": "fontSize",
+          "description": "",
+          "value": "24"
+        },
+        {
+          "name": "brand.fontSize.xxl",
+          "key": "--brand-font-size-xxl",
+          "type": "fontSize",
+          "description": "",
+          "value": "36"
+        },
+        {
+          "name": "brand.fontWeight.regular",
+          "key": "--brand-font-weight-regular",
+          "type": "fontWeight",
+          "description": "",
+          "value": "400"
+        },
+        {
+          "name": "brand.fontWeight.bold",
+          "key": "--brand-font-weight-bold",
+          "type": "fontWeight",
+          "description": "",
+          "value": "700"
+        },
+        {
+          "name": "brand.lineHeight.3",
+          "key": "--brand-line-height-3",
+          "type": "lineHeight",
+          "description": "",
+          "value": "12"
+        },
+        {
+          "name": "brand.paragraphSpacing.3",
+          "key": "--brand-paragraph-spacing-3",
+          "type": "FLOAT",
+          "description": "",
+          "value": "12"
+        },
+        {
+          "name": "brand.paragraphSpacing.4",
+          "key": "--brand-paragraph-spacing-4",
+          "type": "FLOAT",
+          "description": "",
+          "value": "16"
+        },
+        {
+          "name": "brand.paragraphSpacing.5",
+          "key": "--brand-paragraph-spacing-5",
+          "type": "FLOAT",
+          "description": "",
+          "value": "20"
+        },
+        {
+          "name": "brand.paragraphSpacing.6",
+          "key": "--brand-paragraph-spacing-6",
+          "type": "FLOAT",
+          "description": "",
+          "value": "24"
+        },
+        {
+          "name": "brand.lineHeight.4",
+          "key": "--brand-line-height-4",
+          "type": "lineHeight",
+          "description": "",
+          "value": "16"
+        },
+        {
+          "name": "brand.lineHeight.5",
+          "key": "--brand-line-height-5",
+          "type": "lineHeight",
+          "description": "",
+          "value": "20"
+        },
+        {
+          "name": "brand.lineHeight.6",
+          "key": "--brand-line-height-6",
+          "type": "lineHeight",
+          "description": "",
+          "value": "24"
+        },
+        {
+          "name": "brand.tracking.tightest",
+          "key": "--brand-tracking-tightest",
+          "type": "FLOAT",
+          "description": "",
+          "value": "-1"
+        },
+        {
+          "name": "brand.tracking.tighter",
+          "key": "--brand-tracking-tighter",
+          "type": "FLOAT",
+          "description": "",
+          "value": "-0.800000011920929"
+        },
+        {
+          "name": "brand.tracking.tight",
+          "key": "--brand-tracking-tight",
+          "type": "FLOAT",
+          "description": "",
+          "value": "-0.4000000059604645"
+        },
+        {
+          "name": "brand.tracking.regular",
+          "key": "--brand-tracking-regular",
+          "type": "FLOAT",
+          "description": "",
+          "value": "0"
+        },
+        {
+          "name": "brand.tracking.wide",
+          "key": "--brand-tracking-wide",
+          "type": "FLOAT",
+          "description": "",
+          "value": "0.4000000059604645"
+        },
+        {
+          "name": "brand.tracking.wider",
+          "key": "--brand-tracking-wider",
+          "type": "FLOAT",
+          "description": "",
+          "value": "0.800000011920929"
+        },
+        {
+          "name": "brand.tracking.widest",
+          "key": "--brand-tracking-widest",
+          "type": "FLOAT",
+          "description": "",
+          "value": "1"
+        },
+        {
+          "name": "brand.color.error.700",
+          "key": "--brand-color-error-700",
+          "type": "colors",
+          "description": "",
+          "value": "rgba(216, 16, 16, 1.00)"
+        },
+        {
+          "name": "brand.borderWidth.05",
+          "key": "--brand-border-width-05",
+          "type": "borderWidth",
+          "description": "",
+          "value": "0.5px"
+        },
+        {
+          "name": "brand.borderWidth.10",
+          "key": "--brand-border-width-10",
+          "type": "borderWidth",
+          "description": "",
+          "value": "1px"
+        },
+        {
+          "name": "brand.borderWidth.20",
+          "key": "--brand-border-width-20",
+          "type": "borderWidth",
+          "description": "",
+          "value": "2px"
+        },
+        {
+          "name": "brand.borderRadius.none",
+          "key": "--brand-border-radius-none",
+          "type": "borderRadius",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "brand.borderRadius.xs",
+          "key": "--brand-border-radius-xs",
+          "type": "borderRadius",
+          "description": "",
+          "value": "2px"
+        },
+        {
+          "name": "brand.borderRadius.sm",
+          "key": "--brand-border-radius-sm",
+          "type": "borderRadius",
+          "description": "",
+          "value": "4px"
+        },
+        {
+          "name": "brand.borderRadius.md",
+          "key": "--brand-border-radius-md",
+          "type": "borderRadius",
+          "description": "",
+          "value": "8px"
+        }
+      ]
+    },
+    {
+      "name": "density--default",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "default"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "density.action.spacing.padding.xs",
+          "key": "--density-action-spacing-padding-xs",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "density.action.spacing.padding.sm",
+          "key": "--density-action-spacing-padding-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "density.action.spacing.padding.md",
+          "key": "--density-action-spacing-padding-md",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "density.action.spacing.padding.lg",
+          "key": "--density-action-spacing-padding-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "density.action.spacing.padding.xl",
+          "key": "--density-action-spacing-padding-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-240}"
+        },
+        {
+          "name": "density.action.spacing.gap.xs",
+          "key": "--density-action-spacing-gap-xs",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "density.action.spacing.gap.sm",
+          "key": "--density-action-spacing-gap-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "density.action.spacing.gap.md",
+          "key": "--density-action-spacing-gap-md",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "density.action.spacing.gap.lg",
+          "key": "--density-action-spacing-gap-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "density.action.spacing.gap.xl",
+          "key": "--density-action-spacing-gap-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-240}"
+        },
+        {
+          "name": "density.action.spacing.icon.none",
+          "key": "--density-action-spacing-icon-none",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-none}"
+        },
+        {
+          "name": "density.action.spacing.icon.sm",
+          "key": "--density-action-spacing-icon-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "density.action.spacing.icon.md",
+          "key": "--density-action-spacing-icon-md",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "density.action.spacing.icon.lg",
+          "key": "--density-action-spacing-icon-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "density.action.spacing.icon.xl",
+          "key": "--density-action-spacing-icon-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "{--brand-spacing-240}"
+        },
+        {
+          "name": "density.action.borderRadius.none",
+          "key": "--density-action-border-radius-none",
+          "type": "borderRadius",
+          "description": "",
+          "value": "{--brand-border-radius-none}"
+        },
+        {
+          "name": "density.action.borderRadius.sm",
+          "key": "--density-action-border-radius-sm",
+          "type": "borderRadius",
+          "description": "",
+          "value": "{--brand-border-radius-sm}"
+        },
+        {
+          "name": "density.action.borderRadius.default",
+          "key": "--density-action-border-radius-default",
+          "type": "borderRadius",
+          "description": "",
+          "value": "{--brand-border-radius-md}"
+        },
+        {
+          "name": "density.action.borderWidth.thin",
+          "key": "--density-action-border-width-thin",
+          "type": "borderWidth",
+          "description": "",
+          "value": "{--brand-border-width-05}"
+        },
+        {
+          "name": "density.action.borderWidth.default",
+          "key": "--density-action-border-width-default",
+          "type": "borderWidth",
+          "description": "",
+          "value": "{--brand-border-width-10}"
+        },
+        {
+          "name": "density.action.borderWidth.thick",
+          "key": "--density-action-border-width-thick",
+          "type": "borderWidth",
+          "description": "",
+          "value": "{--brand-border-width-20}"
+        }
+      ]
+    },
+    {
+      "name": "density--compact",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "compact"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "density.action.spacing.padding.xs",
+          "key": "--density-action-spacing-padding-xs",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.padding.sm",
+          "key": "--density-action-spacing-padding-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.padding.md",
+          "key": "--density-action-spacing-padding-md",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.padding.lg",
+          "key": "--density-action-spacing-padding-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.padding.xl",
+          "key": "--density-action-spacing-padding-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.gap.xs",
+          "key": "--density-action-spacing-gap-xs",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.gap.sm",
+          "key": "--density-action-spacing-gap-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.gap.md",
+          "key": "--density-action-spacing-gap-md",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.gap.lg",
+          "key": "--density-action-spacing-gap-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.gap.xl",
+          "key": "--density-action-spacing-gap-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.icon.none",
+          "key": "--density-action-spacing-icon-none",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.icon.sm",
+          "key": "--density-action-spacing-icon-sm",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.icon.md",
+          "key": "--density-action-spacing-icon-md",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.icon.lg",
+          "key": "--density-action-spacing-icon-lg",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.spacing.icon.xl",
+          "key": "--density-action-spacing-icon-xl",
+          "type": "spacing",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderRadius.none",
+          "key": "--density-action-border-radius-none",
+          "type": "borderRadius",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderRadius.sm",
+          "key": "--density-action-border-radius-sm",
+          "type": "borderRadius",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderRadius.default",
+          "key": "--density-action-border-radius-default",
+          "type": "borderRadius",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderWidth.thin",
+          "key": "--density-action-border-width-thin",
+          "type": "borderWidth",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderWidth.default",
+          "key": "--density-action-border-width-default",
+          "type": "borderWidth",
+          "description": "",
+          "value": "0px"
+        },
+        {
+          "name": "density.action.borderWidth.thick",
+          "key": "--density-action-border-width-thick",
+          "type": "borderWidth",
+          "description": "",
+          "value": "0px"
+        }
+      ]
+    },
+    {
+      "name": "breakpoints--mobile",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "mobile"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "button",
+          "key": "--button",
+          "type": "STRING",
+          "description": "",
+          "value": "mobile"
+        },
+        {
+          "name": "card",
+          "key": "--card",
+          "type": "STRING",
+          "description": "",
+          "value": "mobile"
+        },
+        {
+          "name": "action.fontSize.label",
+          "key": "--action-font-size-label",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-sm}"
+        },
+        {
+          "name": "action.fontWeight.label",
+          "key": "--action-font-weight-label",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-bold}"
+        },
+        {
+          "name": "action.lineHeight.label",
+          "key": "--action-line-height-label",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "action.paragraphSpacing.label",
+          "key": "--action-paragraph-spacing-label",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-paragraph-spacing-4}"
+        },
+        {
+          "name": "action.tracking.label",
+          "key": "--action-tracking-label",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-tracking-regular}"
+        },
+        {
+          "name": "static.fontSize.header",
+          "key": "--static-font-size-header",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-regular}"
+        },
+        {
+          "name": "static.fontSize.text",
+          "key": "--static-font-size-text",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-sm}"
+        },
+        {
+          "name": "static.fontWeight.header",
+          "key": "--static-font-weight-header",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-bold}"
+        },
+        {
+          "name": "static.fontWeight.text",
+          "key": "--static-font-weight-text",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-regular}"
+        },
+        {
+          "name": "static.lineHeight.header",
+          "key": "--static-line-height-header",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "static.lineHeight.text",
+          "key": "--static-line-height-text",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "static.paragraphSpacing.default",
+          "key": "--static-paragraph-spacing-default",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-paragraph-spacing-4}"
+        },
+        {
+          "name": "static.tracking.default",
+          "key": "--static-tracking-default",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-tracking-regular}"
+        },
+        {
+          "name": "static.gap.xxs",
+          "key": "--static-gap-xxs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "static.gap.xs",
+          "key": "--static-gap-xs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "static.gap.sm",
+          "key": "--static-gap-sm",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.gap.default",
+          "key": "--static-gap-default",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "action.padding.none",
+          "key": "--action-padding-none",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-none}"
+        },
+        {
+          "name": "action.padding.xxs",
+          "key": "--action-padding-xxs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "action.padding.xs",
+          "key": "--action-padding-xs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "action.padding.sm",
+          "key": "--action-padding-sm",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "action.padding.default",
+          "key": "--action-padding-default",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "action.gap.none",
+          "key": "--action-gap-none",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-none}"
+        },
+        {
+          "name": "action.gap.xxs",
+          "key": "--action-gap-xxs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "action.gap.xs",
+          "key": "--action-gap-xs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "action.gap.sm",
+          "key": "--action-gap-sm",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "action.gap.default",
+          "key": "--action-gap-default",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.padding.xxs",
+          "key": "--static-padding-xxs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-40}"
+        },
+        {
+          "name": "static.padding.xs",
+          "key": "--static-padding-xs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "static.padding.sm",
+          "key": "--static-padding-sm",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.padding.default",
+          "key": "--static-padding-default",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        }
+      ]
+    },
+    {
+      "name": "breakpoints--desktop",
+      "dependencies": [],
+      "parameters": {
+        "section-name": "desktop"
+      },
+      "isStatic": false,
+      "variables": [
+        {
+          "name": "button",
+          "key": "--button",
+          "type": "STRING",
+          "description": "",
+          "value": "desktop"
+        },
+        {
+          "name": "card",
+          "key": "--card",
+          "type": "STRING",
+          "description": "",
+          "value": "desktop"
+        },
+        {
+          "name": "action.fontSize.label",
+          "key": "--action-font-size-label",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-regular}"
+        },
+        {
+          "name": "action.fontWeight.label",
+          "key": "--action-font-weight-label",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-bold}"
+        },
+        {
+          "name": "action.lineHeight.label",
+          "key": "--action-line-height-label",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "action.paragraphSpacing.label",
+          "key": "--action-paragraph-spacing-label",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-paragraph-spacing-4}"
+        },
+        {
+          "name": "action.tracking.label",
+          "key": "--action-tracking-label",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-tracking-regular}"
+        },
+        {
+          "name": "static.fontSize.header",
+          "key": "--static-font-size-header",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-lg}"
+        },
+        {
+          "name": "static.fontSize.text",
+          "key": "--static-font-size-text",
+          "type": "fontSize",
+          "description": "",
+          "value": "{--brand-font-size-regular}"
+        },
+        {
+          "name": "static.fontWeight.header",
+          "key": "--static-font-weight-header",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-bold}"
+        },
+        {
+          "name": "static.fontWeight.text",
+          "key": "--static-font-weight-text",
+          "type": "fontWeight",
+          "description": "",
+          "value": "{--brand-font-weight-regular}"
+        },
+        {
+          "name": "static.lineHeight.header",
+          "key": "--static-line-height-header",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "static.lineHeight.text",
+          "key": "--static-line-height-text",
+          "type": "lineHeight",
+          "description": "",
+          "value": "{--brand-line-height-4}"
+        },
+        {
+          "name": "static.paragraphSpacing.default",
+          "key": "--static-paragraph-spacing-default",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-paragraph-spacing-4}"
+        },
+        {
+          "name": "static.tracking.default",
+          "key": "--static-tracking-default",
+          "type": "FLOAT",
+          "description": "",
+          "value": "{--brand-tracking-regular}"
+        },
+        {
+          "name": "static.gap.xxs",
+          "key": "--static-gap-xxs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "static.gap.xs",
+          "key": "--static-gap-xs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.gap.sm",
+          "key": "--static-gap-sm",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.gap.default",
+          "key": "--static-gap-default",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "action.padding.none",
+          "key": "--action-padding-none",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-none}"
+        },
+        {
+          "name": "action.padding.xxs",
+          "key": "--action-padding-xxs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "action.padding.xs",
+          "key": "--action-padding-xs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "action.padding.sm",
+          "key": "--action-padding-sm",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "action.padding.default",
+          "key": "--action-padding-default",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "action.gap.none",
+          "key": "--action-gap-none",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-none}"
+        },
+        {
+          "name": "action.gap.xxs",
+          "key": "--action-gap-xxs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-20}"
+        },
+        {
+          "name": "action.gap.xs",
+          "key": "--action-gap-xs",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "action.gap.sm",
+          "key": "--action-gap-sm",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "action.gap.default",
+          "key": "--action-gap-default",
+          "type": "gap",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        },
+        {
+          "name": "static.padding.xxs",
+          "key": "--static-padding-xxs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-60}"
+        },
+        {
+          "name": "static.padding.xs",
+          "key": "--static-padding-xs",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.padding.sm",
+          "key": "--static-padding-sm",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-80}"
+        },
+        {
+          "name": "static.padding.default",
+          "key": "--static-padding-default",
+          "type": "padding",
+          "description": "",
+          "value": "{--brand-spacing-160}"
+        }
+      ]
+    },
+    {
+      "name": "collection",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    },
+    {
+      "name": "collection-2",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    },
+    {
+      "name": "collection-3",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    },
+    {
+      "name": "collection-4",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    },
+    {
+      "name": "collection-5",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    },
+    {
+      "name": "collection-6",
+      "dependencies": [],
+      "parameters": {},
+      "isStatic": true,
+      "variables": []
+    }
+  ],
+  "order": [
+    "color-modes--light",
+    "color-modes--dark",
+    "brand--brand-1",
+    "density--default",
+    "density--compact",
+    "breakpoints--mobile",
+    "breakpoints--desktop",
+    "collection",
+    "collection-2",
+    "collection-3",
+    "collection-4",
+    "collection-5",
+    "collection-6"
+  ]
+}
